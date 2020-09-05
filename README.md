@@ -3,7 +3,7 @@ Welcome to CS249r! This repository will house the assignments.
 
 If you are reading this, the name of the repository should be ```assignments-YourGithubID```. If that's what you see, you should already be logged into your Github account and have your own private repository (this one) for your assignments. You're good to read on.
 
-If you don't see your Github ID at the end of the repository name, you need to follow [this link to Github Classroom](TBD) to create your own private repository.
+If you don't see your Github ID at the end of the repository name, you need to follow [this link to Github Classroom](https://classroom.github.com/a/_hZODl1X) to create your own private repository.
 
 If you don't know what any of this means please see the tips for getting GitHub setup below and if you need any additional help please reach out to the course staff!
 
