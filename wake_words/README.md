@@ -10,7 +10,7 @@ Alvin: Turns on the Blue LED
 ```
 And is able to differentiate those words from many adversarial examples (e.g., Lying, Ryan, Buddy, Alec, Ervin, Marvin, Whammy)!
 
-[![Watch the video](media/demo.png)](media/demo.mp4)
+![Video Temporarily Removed to Enable Cloning](media/demo.png)
 
 ## Learning Objectives
 
