@@ -12,7 +12,7 @@ This repository is a copy of a "seed" repository maintained by the TFs. Througho
 ```
 git remote add seed_repo https://github.com/Harvard-CS249R-Fall2020/assignments.git # only needs to be done once
 git fetch seed_repo
-git merge seed_repo/master -m "Fetched new assignment"
+git merge seed_repo/master -m "Fetched new assignment" --allow-unrelated-histories
 ```
 These commands:
 1. Tell your local git repository where the seed repo is (and calls it ```seed_repo```),
