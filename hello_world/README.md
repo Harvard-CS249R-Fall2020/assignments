@@ -86,7 +86,7 @@ You will need to download the resulting ```models/model.cc``` file from Colab an
 We hope this process has been agreeable, but if you're running into issues, we've compiled a list of common issues with suggested solutions here. Because this is the first hands-on experience, some of these issues are fairly generic and may apply to later assignments. As a final note: if you find an issue that isn't addressed here, please let us know so that we can not only better support you, but also your peers and future students. 
 
 * I'm seeing compliation issues related to the ```Arduino_TensorFlowLite``` library.
-    * Most likely you've forgotton to check the ```Use libraries installed by Arduino IDE``` checkbox during project import.
+    * Most likely you've forgotton to check the ```Use libraries installed by Arduino IDE``` checkbox during project import (don't worry we can fix that now). Alternatively, the ```platformio.ini``` file may have the wrong value for the Arduino library path ```YOUR_ARDUINO_FOLDER_PATH``` in the line:  ```lib_extra_dirs = YOUR_ARDUINO_FOLDER_PATH/libraries```. PlatformIO assumes it is located at ```Documents/Arduino``` so if yours is located in another place you'll need to update this line. If you didn't click the checkbox that line will be missing. In either case simply add/update that line to the correct value and you should be good to go!
 
 * I've uploaded code previously, but now my Arduino Nano 33 BLE Sense isn't responding or appearing on any ports.
     * You can perform a [double tap reset](https://forum.arduino.cc/index.php?topic=648781.0) to step into the bootloader and replace the runaway code.
