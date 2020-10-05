@@ -30,6 +30,7 @@ In this assignment, you will learn how to build real-time computer vision applic
    * You can follow the same instructions below and use colab for finishing all the modules.
    
    * **For this assignment, we have created a [colab template](https://bit.ly/30MEs0f). We show you how to check out the repository and run training (as examples). Unlike the last assignment, you need to fill the cells with code/commands yourself for the rest of the modules.**
+   * If you run the cells in the [colab template](https://bit.ly/30MEs0f), it will prompt a warning message saying it was not authored by google. So create a copy of the colab in your drive and use that instead.
    
 * [Windows Batch Script](http://steve-jansen.github.io/guides/windows-batch-scripting/)/[Linux Shell Script](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
   * If you decide to run this assignment on Windows 10 machine, you will use ```*.bat``` (batch files).
@@ -104,7 +105,11 @@ Luckily, we don't have to write the camera driver or the JPEG decoder ourselves,
 
 2. Install the JPEGDecoder library from the Arduino IDE. <br>
     ``` Tools -> Manage Libraries -> search for "JPEGDecoder" ``` <br>
-    After installing, go to ``` open /Arduino/libraries/JPEGDecoder/src/User_Config.h ``` and make sure to comment ```*#define LOAD_SD_LIBRARY*``` and ```*#define LOAD_SDFAT_LIBRARY*```
+    After installing, go to ``` open /Arduino/libraries/JPEGDecoder/src/User_Config.h ``` and make sure to comment
+   
+   ```#define LOAD_SD_LIBRARY``` 
+   
+   ```#define LOAD_SDFAT_LIBRARY```
 
     After interfacing the camera, microcontroller, and installing the drivers, it is time to test if everything works. First, connect the micro-USB to the Arduino Nano 33 BLE to power-on the microcontroller (it should automatically power-on when you plug the micro-USB). By default, it will load the program that was flashed before (hello world or Assignment 1 or whatever you tried before).
 
