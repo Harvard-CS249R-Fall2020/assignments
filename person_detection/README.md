@@ -14,14 +14,14 @@ In this assignment, you will learn how to build real-time computer vision applic
 * Hello world assignment
 * Using Arduino IDE/VSCode+PlatformIO to flash binaries to the Nano 33 BLE
 
-   * For Arduino IDE, use these instructions in [assignment-1](https://github.com/tinyMLx/Harvard_CS249_F20/tree/master/assignments/wake_words#deploying-a-speech-model-to-the-microcontroller-using-vscode--platformio).
-   * For VSCode+PlatformIO, use these instructions provided in [assignment-1](https://github.com/tinyMLx/Harvard_CS249_F20/tree/master/assignments/wake_words#deploying-a-speech-model-to-the-microcontroller-using-vscode--platformio).
+   * For Arduino IDE, use these instructions in [assignment-1](../wake_words/README.md#deploying-a-speech-model-to-the-microcontroller-using-vscode--platformio).
+   * For VSCode+PlatformIO, use these instructions provided in [assignment-1](../wake_words/README.md#deploying-a-speech-model-to-the-microcontroller-using-vscode--platformio).
    
 * Arduino_TensorFlowLite libraries already installed and configured
 * Breadboard and connectors (You should have received it as part of the startup kit)
 * Setup environment/TensorFlow/TF-Slim (if you want to run this on your local machine)
 
-   [Setup Guide](https://github.com/tinyMLx/Harvard_CS249_F20/blob/master/assignments/person_detection/Setup.md)
+   [Setup Guide](Setup.md)
    
 * Google Colab
    
