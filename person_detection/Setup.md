@@ -8,11 +8,11 @@ Once you have installed anaconda, please follow the instructions below:
 
 If you have a GPU:
 
-``` $ conda create --name "cs249_gpu" python=3.7 tensorflow_gpu=1.15 Pillow contextlib```
+``` $ conda create --name "cs249_gpu" python=3.7 tensorflow_gpu=1.15 Pillow contextlib2```
 
 If you  don't have a GPU
 
-``` $ conda create --name "cs249" python=3.7 tensorflow=1.15 Pillow contextlib```
+``` $ conda create --name "cs249" python=3.7 tensorflow=1.15 Pillow contextlib2```
 
 
 2. Once you have created a conda environment, activate and install the tf_slim package that is needed for this assignment
