@@ -46,7 +46,7 @@ First, you will test a simple handwashing detection model to become familiar wit
 
 The basic application captures data from the accelerator and gyroscope in the Z, Y, and Z Directions. The pipeline will first determine if the Arduino has been moved by calculating the root mean squared (RMS) value on a 0.3 second moving buffer. If at any point the RMS value is above a pre-determined theshold, the pipeline will capture an additional 0.6 seconds before feeding the input directly into a fully connected model.
 
-![FC Pipeline](https://drive.google.com/uc?id=1RnjcINNHr4F0cyKfwnKWwVLk-WRhRKQ-)
+![FC Pipeline](media/FC_hand_washing_feature_drawing.jpg)
 
 
 *   Test the Deployment
@@ -134,7 +134,7 @@ Now that we have some understanding of the knobs we can tune, let’s improve th
 
 Scaling up the model only gets us so far when we have a tiny dataset. To get better results we have to look into other types of models. A convolutional neural network (CNN) uses the convolution layer to learn filters that are passed along the input. This generates features which can be passed to fully connected layers for classification.
 
-![FC Pipeline](https://drive.google.com/uc?id=1suaUPcIZsd3z_TWglnS-6kx03eM0zpSw)
+![FC Pipeline](media/cnn_hand_washing_feature_drawing.jpg)
 
 
 *   Open this new [Collab](https://colab.research.google.com/drive/1IhCLUuxncphlaKJGbB3BEX8zc-51gO99?usp=sharing)
