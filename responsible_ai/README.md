@@ -35,10 +35,8 @@ First, you will learn how discrimination manifests in classifiers, and how you m
 
 Please walk through this [interactive article](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) and answer the following questions related to the simulations in the article.
 
-**<ins>Q1.</ins>** In the "Simulating loan thresholds" visualization:
-
-a.    What is the best threshold for maximizing the number of correct decisions?
-
+**<ins>Q1.</ins>** In the "Simulating loan thresholds" visualization:  
+a.    What is the best threshold for maximizing the number of correct decisions?  
 b.    What is the best threshold for maximizing profit?
 
 **<ins>Q2.</ins>** In the "Simulating loan decisions for different groups" visualization, the equal opportunity loan strategy is shown to be the best tradeoff between profit and fairness for the given situation. Give one set of example distributions of the blue and the orange populations where the equal opportunity strategy would work poorly.
