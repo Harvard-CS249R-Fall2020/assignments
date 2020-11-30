@@ -36,8 +36,8 @@ First, you will learn how discrimination manifests in classifiers, and how you m
 Please walk through this [interactive article](https://research.google.com/bigpicture/attacking-discrimination-in-ml/) and answer the following questions related to the simulations in the article.
 
 **<ins>Q1.</ins>** In the "Simulating loan thresholds" visualization:
-                   **i.**    What is the best threshold for maximizing the number of correct decisions?
-                   **ii.**    What is the best threshold for maximizing profit?
+                   i.    What is the best threshold for maximizing the number of correct decisions?
+                   ii.    What is the best threshold for maximizing profit?
 
 **<ins>Q2.</ins>** In the "Simulating loan decisions for different groups" visualization, the equal opportunity loan strategy is shown to be the best tradeoff between profit and fairness for the given situation. Give one set of example distributions of the blue and the orange populations where the equal opportunity strategy would work poorly.
 
@@ -78,9 +78,9 @@ Now that you know how to analyze the data and model performance, let’s dive in
 *    Now go back to the PF tab and slice by sex.
      *    **<ins>Q8.</ins>** What do you observe about the accuracy of the model between men and women? Take a look at the confusion matrix. What do you notice? Do you think the heavily skewed data might be affecting this?
      *    **<ins>Q9.</ins>** As you learned in the previous section, there are many different ways of measuring fairness. Apply the different optimization strategies on the left (namely demographic parity, equal opportunity, and equal accuracy) and report your observations in terms of what they mean semantically. (hint: [this link](https://pair-code.github.io/what-if-tool/ai-fairness.html) might be helpful)
-          **i.**    Calculate the true positive rates from the confusion matrices (defined [here](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)) for demographic parity for models 1 and 2. 
-          **ii.**    Calculate the true positive rates for equal opportunity for models 1 and 2. 
-          **iii.**    From parts i. and ii. (demographic parity vs equal opportunity), what differences do you notice for the threshold values, false positives (FPs), and false negatives (FNs) across men and women? Do you think one model is more unfair than the other?
-          **d)**    Now optimize for equal accuracy -- take a closer look at the distribution of _inaccurate_ predictions for males vs females. What do you notice? Let’s say we choose to approve loans on the basis of positive predictions. How would this be problematic? Do you think we should try to avoid FPs more than FNs or vice-versa? Why? In which situations do you think one would be more costly than the other?
+          i.    Calculate the true positive rates from the confusion matrices (defined [here](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)) for demographic parity for models 1 and 2. 
+          ii.    Calculate the true positive rates for equal opportunity for models 1 and 2. 
+          iii.    From parts i. and ii. (demographic parity vs equal opportunity), what differences do you notice for the threshold values, false positives (FPs), and false negatives (FNs) across men and women? Do you think one model is more unfair than the other?
+          iv.    Now optimize for equal accuracy -- take a closer look at the distribution of _inaccurate_ predictions for males vs females. What do you notice? Let’s say we choose to approve loans on the basis of positive predictions. How would this be problematic? Do you think we should try to avoid FPs more than FNs or vice-versa? Why? In which situations do you think one would be more costly than the other?
 *    Somewhat unrelated to our dataset here but important nonetheless, is the “Cost Ratio” on the left. For the thresholding optimizations above, we have been assuming false positives (FPs) are as undesirable as false negatives (FNs). However in certain cases, FPs may be more costly than FNs, or vice versa; this setting allows you to weigh them accordingly by setting the cost ratio between FPs and FNs. (more information [here](https://pair-code.github.io/what-if-tool/learn/tutorials/cost-ratio/))
      *    **<ins>Q10.</ins>** Going back to our primer: in the “Simulating loan thresholds” visualization, given that a successful loan results in a profit to the bank of $300 but a default costs the bank $700, what should be the cost ratio between false positives and false negatives?
