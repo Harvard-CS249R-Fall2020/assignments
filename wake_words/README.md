@@ -185,7 +185,7 @@ We have [forked a version](https://github.com/tinyMLx/open-speech-recording/) of
 
 1. Clone the repository and install the only requirement, flask:
   ```
-  git clone https://github.com/tinyMLx/open-speech-recording.git
+  git clone https://github.com/tinyMLx/open-speech-recording.git --branch v1.0
   cd open-speech-recording
   git submodule update --init --recursive
   pip install flask
